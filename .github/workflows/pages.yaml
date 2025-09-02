@@ -36,7 +36,7 @@ jobs:
         uses: pnpm/action-setup@v4
 
       - name: Setup Pages
-        uses: actions/configure-pages@v4
+        uses: actions/configure-pages@v5
 
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
